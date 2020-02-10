@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serifs;
+}
+/* header style!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+header {
+z-index: 10;
+    background-color: #fffffd;
+    position: sticky;
+    top: 0;
+    opacity: 0.98;
+    
+}
+#about {
+    color: #00B39B;
+}
+.img1 {
+    width: 268px;
+    height: 63px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    padding: 19.95px 0px;
+}
+
+li {
+    display: flex;
+    padding: 0px 9px;
+    color: #747474;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 124px;
+    
+}
+/* section 1 style!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.sec1 {
+    padding: 0px 20px;
+    margin: 33px 124px 60px;
+/*    border: 1px solid;*/
+}
+
+.paragraph {
+    display: flex;
+    color: #747474;
+}
+
+.sec1 h1 {
+    margin: 34px 0px;
+/*    border: 1px solid;*/
+    color: #00B39B;
+}
+
+.paragraph p {
+    margin: 0px 12.8px;
+    padding: 10px;
+/*    border: 1px solid;*/
+}
+
+.logo1 {
+    margin: 0px 467px;
+}
+
+h2 {
+    margin: 7.8px 0px 26px;
+    color: #fffffd;
+    font-size: 14px;
+}
+/* section 2!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.sec2 h1 {
+    color: #fffffd;
+}
+select {
+    padding: 0px 42px 0px 18px;
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 9px;
+}
+.sec2 {
+    display: flex;
+    padding: 0px 20px;
+    margin: 60px 124px 40px;
+}
+.container1 {
+    max-width: 477.5px;
+    padding: 10px;
+}
+
+.container2 {    
+    max-width: 477.5px;
+    padding: 10px;
+}
+
+.doctors {
+           background-color: #3d83df;
+ padding: 22px 40px 0px;
+/*      border: 1px solid;*/
+    background-color: #3d83df;
+    border-radius: 10px;
+        overflow: hidden;
+position: relative;
+    height: 391.75px;
+}
+
+.patients {
+        background-color: #00ccb1;
+        padding: 22px 40px 0px;
+/*    border: 1px solid;*/
+    background-color: #00ccb1;
+    border-radius: 10px;
+        overflow: hidden;
+    position: relative;
+    height: 391.75px;
+}
+.patients h1 {
+    padding: 7.8px 0px 26px;
+}
+
+.img2, .img3 {
+    width: 397.5px;
+    height: 247.75px;
+}
+
+.fig1 {
+    margin: -36.8px 0px 0px 159px;
+}
+
+.fig2 {
+  
+    margin: 16px 0px 0px 159px;
+}
+/* section 3 style!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.sec3 {
+    display: flex;
+    margin: 40px 139.5px 50px;
+    padding: 0px 20px;
+}
+.sec3 ul {
+    display: flex;
+flex-wrap: wrap;
+}
+.sec3 h1{
+    margin: 6.5px 0px 9.1px;
+    padding: 0px 26px 0px 0px;
+    color: #00B39B;
+}
+.sec3 svg {
+    padding: 0px 0px 0px 10px;
+    fill: #747474;
+}
+.sec3 li{
+    padding: 5px 0px;
+}
+/* section 4 style!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.sec4 {
+    display: flex;
+    margin: 50px 0px 88px;
+    padding: 30px 0px 10px;
+    background-color: #dbf7f7;
+}
+.container11 {
+    margin: 32px 0px 0px;
+    padding: 10px;
+    margin: 40px 139.5px 50px;
+}
+.container11 h1{
+    color: #00B39B;
+}
+.container11 p {
+    padding: 22.4px 0px;
+}
+.container12 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1, .box2, .box3, .box4{
+    padding: 15px;
+    background-color: white;
+    width: 228px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 8px; 
+    text-align: center;
+}
+.container12 h3{
+    margin: 12px 0px;
+    color: #00B39B;
+}
+.container12 p {
+    color: #747474;
+}
+.box1 {
+    margin-top: 20px;
+}
+.box3 {
+    margin-top: 20px
+}
+/* section 5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.city{
+    width: 309px;
+    height: 278px;
+}
+.sec5 {
+    margin: 88px 100px 80px;
+    padding: 0px 20px;    
+}
+.sec5-intro {
+    text-align: center;
+    margin: 0px 257px 67px;
+}
+.sec5-intro h1 {
+    color: #00B39B;
+}
+.sec5-intro p {
+    margin: 22.4px 0px;
+}
+.place {
+/*padding: 10px;*/
+    margin: 10px;
+}
+.place:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(116,116,116,0.15);
+-moz-box-shadow: 10px 10px 5px 0px rgba(116,116,116,0.15);
+box-shadow: 10px 10px 5px 0px rgba(116,116,116,0.15);
+}
+.placename {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.placename button {
+    background-color: #3D83DF;
+    color: white;
+    padding: 10px 15px;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Footer style!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+footer {
+    color: #ABABAB;
+    margin: 0px 194px;
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 10.5px;
+}
+footer p {
+    margin: 19.2px 0px 4.8px;
+}
+footer a{
+    text-decoration: none;
+}
